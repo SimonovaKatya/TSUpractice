@@ -10,7 +10,7 @@ const third_src = 'https://static.360tv.ru/media/article_media/20150717/beefd7cf
 
 export default  function NavbarSkat(){
     return(
-        <div style={{height:"10rem"}}>
+        <div style={{height:"9rem"}}>
             <Navbar light bg="dark" fixed="top" mb="3">
                 <Navbar.Brand href="#">EN</Navbar.Brand>
                 <Navbar.Brand href="#">РУС</Navbar.Brand>
