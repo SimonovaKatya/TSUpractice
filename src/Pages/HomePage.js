@@ -13,7 +13,7 @@ export default  function HomePage(){
     return(
         <div style={{height:"10rem"}}>
             <NavbarSkat/>
-            <Carousel w="50"  id="carouselExampleCaptions">
+            <Carousel w="100" style={{height:300}}  id="carouselExampleCaptions">
                 <Carousel.Indicators>
                     <Carousel.Indicator target="#carouselExampleCaptions" to="0" active />
                     <Carousel.Indicator target="#carouselExampleCaptions" to="1" />
@@ -21,14 +21,14 @@ export default  function HomePage(){
                 </Carousel.Indicators>
                 <Carousel.Inner>
                     <Carousel.Item active>
-                        <BImg display="block" w="100" src={first_src} />
+                        <BImg display="block" w="100" style={{height:300, objectFit: 'cover'}} src={first_src} />
                         <Carousel.Caption display="none md-block">
                             <h5>First slide label</h5>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item><BImg display="block" w="100" src={second_src} /></Carousel.Item>
-                    <Carousel.Item><BImg display="block" w="100" src={third_src} /></Carousel.Item>
+                    <Carousel.Item><BImg display="block" w="100" style={{height:300, objectFit: 'cover'}} src={second_src} /></Carousel.Item>
+                    <Carousel.Item><BImg display="block" w="100" style={{height:300, objectFit: 'cover'}} src={third_src} /></Carousel.Item>
                 </Carousel.Inner>
                 <Carousel.Prev href="#carouselExampleCaptions">
                     <Carousel.Prev.Icon />
