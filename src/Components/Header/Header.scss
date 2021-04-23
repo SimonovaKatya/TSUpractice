@@ -1,0 +1,132 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family:Roboto ;
+}
+
+#main_nav{
+  background-image: linear-gradient(to top,rgba(255,0,0,.4), #999);
+  height: 80px;
+  text-align: center;
+
+}
+
+.logo_holder{
+  float: left;
+  padding-left: 12px;
+  text-align: left;
+}
+
+.logo_img{
+  width: 20%;
+}
+
+#main_menu{
+  list-style: none;
+  margin-right: 50px;
+}
+
+.main_menu_item{
+  display:inline-block ;
+}
+
+.main_menu_item a{
+  color: coral;
+  text-decoration: none;
+  background-color: bisque;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  display:inline-block;
+}
+
+.main_menu_item a:hover{
+background-color:lightblue;
+}
+
+/* обложка */
+
+.cover{
+  background: url("https://bigpicture.ru/wp-content/uploads/2011/11/103.jpg");
+  background-position: center;
+  background-size: cover; // чтобы вся картинка поместилась в див
+  color: #ffff;
+  padding: 100px 20%;
+}
+.cover_dimmer{
+  background: rgba(0,0,0,0.5);
+  padding: 40px;
+  text-align: center;
+}
+
+h1{
+  font-size: 2rem;
+  margin-top: -10px;
+  margin-bottom: 0.25rem;
+}
+
+.button_cover{
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: blue;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+
+/*services*/
+
+.services{
+  width: 80%;
+  background-color: lavender;
+  margin: auto;
+  padding-top: 4rem ;
+  text-align: center;
+}
+
+h2{
+  padding-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.subheader{
+  padding-bottom: 3rem;
+}
+
+.service{
+  float: left;
+  width: 31%;
+  border: solid 1px blue;
+  margin: 1%;
+  padding: 2%;
+}
+
+h3{
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.img_service{
+  width: 100%;
+}
+
+.serv_descr{
+  color: blue;
+  margin: 0.8rem 0;
+  text-align: left;
+}
+.button_service{
+  padding: 0.9rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+  background-color: crimson;
+  border: 0;
+  border-radius: 4px;
+  margin-top: 0.8rem;
+}
